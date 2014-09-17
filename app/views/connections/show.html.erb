@@ -1,0 +1,21 @@
+<p>
+  <strong>Name:</strong>
+  <%= @connection.first_name %> <%= @connection.last_name %>
+</p>
+
+<p>
+  <strong>Firm:</strong>
+  <%= @connection.firm %>
+</p>
+ 
+<p>
+  <strong>Last Contacted:</strong>
+  <%= @connection.last_contacted %>
+</p>
+
+<p>
+  <strong>Other Info:</strong>
+  <%= @connection.other_info %>
+</p>
+
+<%= link_to 'Back', connections_path %>
